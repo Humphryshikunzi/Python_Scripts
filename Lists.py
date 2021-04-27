@@ -17,3 +17,16 @@ print(other_numbers.sort())
 print(other_numbers.pop(1))
 print(other_numbers)
 
+T = [[11, 12, 5, 2], [15, 6,10], [10, 8, 12, 5], [12,15,8,6]]
+
+print(T[0])
+
+print(T[1][2])
+
+print(type(T))
+
+#Lets use Python for loops to write out all the values
+for i in T:
+    for j in i:
+        print(j, end=" ")
+    print()
